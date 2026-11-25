@@ -1,0 +1,25 @@
+{
+    "mcpServers": {
+        "dart": {
+            "type": "stdio",
+            "command": "dart",
+            "args": [
+                "mcp-server"
+            ],
+            "tools": [
+                "*"
+            ]
+        },
+        "go-jatra-captain": {
+            "type": "stdio",
+            "command": "dart",
+            "args": [
+                "run",
+                "bin/mcp_server.dart"
+            ],
+            "tools": [
+                "*"
+            ]
+        }
+    }
+}
